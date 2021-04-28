@@ -10,19 +10,11 @@
 	<div>
 		<h1>Sign up</h1>
 		<form method="post" action="https://reqres.in/api/register">
-			<div>
-				<input name="phone" type="tel" placeholder="Mobile phone" required pattern="[+]{1}[0-9]{12}">
-			</div>
-			<div>
-				<input name="email" type="email" placeholder="Email ID" required>
-			</div>
-			<div>
-				<input name="password" type="password" placeholder="Password" minlength="6" required>
-			</div>
-			<div>
-				<input type="checkbox" id="agree" required>
-				<label for="agree">I agree to terms and conditions</label>
-			</div>
+			<input name="phone" type="tel" placeholder="Mobile phone" required pattern="[+]{1}[0-9]{12}">
+			<input name="email" type="email" placeholder="Email ID" required>
+			<input name="password" type="password" placeholder="Password" minlength="6" required>
+			<input type="checkbox" id="agree" required>
+			<label for="agree">I agree to terms and conditions</label>
 			<button type="submit">Register</button>
 		</form>
 	</div>
